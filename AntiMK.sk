@@ -1,0 +1,1972 @@
+#-=-=-=-=-=-=-=-=-=-=
+
+# TOMBSTONE
+
+#-=-=-=-=-=-=-=-=-=-=		
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone I":
+
+		chance of 1%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10	
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone II":
+
+		chance of 1.5%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10	
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone III":
+
+		chance of 2%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10			
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone IV":
+
+		chance of 2.5%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10	
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone V":
+
+		chance of 3%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10		
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone VI":
+
+		chance of 3.5%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone VII":
+
+		chance of 4%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone VIII":
+
+		chance of 4.5%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone IX":
+
+		chance of 5%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10	
+
+	attacker is a player
+
+	if lore of victim's leggings contains "&4Tombstone X":
+
+		chance of 25%:					
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~5 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~5 ~"				
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~4 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~3 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~2 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~4 ~"					
+
+			wait 1.5 seconds		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"		
+
+			execute console command "execute %attacker% ~ ~ ~ summon FallingSand ~ ~1 ~ {Block:anvil}"	
+
+			execute console command "execute %attacker% ~ ~ ~ summon Arrow ~ ~1 ~"					
+
+			wait 1 seconds		
+
+			send "&5&l* SILENCED &7[4s] &5&l*" to attacker				
+
+			remove slowness from attacker		
+
+			apply slowness 6 to attacker for 4 seconds				
+
+			damage the attacker's helmet by 10	
+
+			damage the attacker's chestplate by 10	
+
+			damage the attacker's leggings by 10	
+
+			damage the attacker's boots by 10
+
+
+
+
+
+#-=-=-=-=-=-=-=-=-=-=
+
+# RAGE
+
+#-=-=-=-=-=-=-=-=-=-=		
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage I":
+
+		chance of 25%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1						
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			send "&6&l** RAGE **" to victim
+
+			damage the victim by 1.1 hearts		
+
+			increase damage by 10%				
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage II":
+
+		chance of 25%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1			
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			send "&6&l** RAGE **" to victim
+
+			damage the victim by 1.1 hearts	
+
+			increase damage by 10%				
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage III":
+
+		chance of 30%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1
+
+			send "&6&l** RAGE **" to victim
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			damage the victim by 1.4 hearts		
+
+			increase damage by 10%				
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage IV":
+
+		chance of 35%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1		
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			send "&6&l** RAGE **" to victim
+
+			damage the victim by 1.7 hearts		
+
+			increase damage by 10%				
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage V":
+
+		chance of 50%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1			
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			send "&6&l** RAGE **" to victim			
+
+			damage the victim by 2 hearts		
+
+			increase damage by 10%				
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&6Rage VI":
+
+		chance of 60%:
+
+			play raw sound "dig.stone" at victim with pitch 1 volume 1		
+
+			execute console command "execute %victim% ~ ~ ~ /particle blockcrack_152 ~ ~1 ~ 0 0 0 1 50 10"	
+
+			send "&6&l** RAGE **" to victim
+
+			damage the victim by 3.7 hearts		
+
+			increase damage by 12%	
+
+#-=-=-=-=-=-=-=-=-=-=
+
+# HORRIFY
+
+#-=-=-=-=-=-=-=-=-=-=
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Horrify I":
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 11%:
+
+				send "&c&l* HORRIFIED [3s] *" to attacker	
+
+				remove slowness from victim			
+
+				remove weakness from victim				
+
+				apply slowness 6 to attacker for 3 seconds	
+
+				apply weakness 255 to attacker for 3 seconds			
+
+				execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+				execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"
+
+		if lore of attacker's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 1%:
+
+			send "&c&l* HORRIFIED [3s] *" to attacker				
+
+			remove slowness from victim			
+
+			remove weakness from victim				
+
+			apply slowness 6 to attacker for 3 seconds	
+
+			apply weakness 255 to attacker for 3 seconds			
+
+			execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+			execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"				
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Horrify II":
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 1.5%:
+
+				send "&c&l* HORRIFIED [4s] *" to attacker	
+
+				remove slowness from victim			
+
+				remove weakness from victim				
+
+				apply slowness 6 to attacker for 3 seconds	
+
+				apply weakness 255 to attacker for 3 seconds			
+
+				execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+				execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"
+
+		if lore of attacker's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 1.5%:
+
+			send "&c&l* HORRIFIED [4s] *" to attacker				
+
+			remove slowness from victim			
+
+			remove weakness from victim				
+
+			apply slowness 6 to attacker for 4 seconds	
+
+			apply weakness 255 to attacker for 4 seconds			
+
+			execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+			execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"			
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Horrify III":
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 2%:
+
+				send "&c&l* HORRIFIED [5s] *" to attacker	
+
+				remove slowness from victim			
+
+				remove weakness from victim			
+
+				apply slowness 6 to attacker for 5 seconds	
+
+				apply weakness 255 to attacker for 5 seconds			
+
+				execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+				execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"
+
+		if lore of attacker's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 2%:
+
+			send "&c&l* HORRIFIED [5s] *" to attacker				
+
+			remove slowness from victim			
+
+			remove weakness from victim				
+
+			apply slowness 6 to attacker for 5 seconds	
+
+			apply weakness 255 to attacker for 5 seconds			
+
+			execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+			execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"
+
+	if lore of victim's chestplate contains "&4Horrify IV":
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 2%:
+
+				send "&c&l* HORRIFIED [5s] *" to attacker	
+
+				remove slowness from victim			
+
+				remove weakness from victim
+
+				damage victim by 4 hearts				
+
+				apply slowness 6 to attacker for 5 seconds	
+
+				apply weakness 255 to attacker for 5 seconds			
+
+				execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+				execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"
+
+		if lore of attacker's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of attacker's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 2%:
+
+			send "&c&l* HORRIFIED [5s] *" to attacker				
+
+			remove slowness from victim			
+
+			remove weakness from victim				
+
+			apply slowness 6 to attacker for 5 seconds	
+
+			apply weakness 255 to attacker for 5 seconds
+
+			damage victim by 4 hearts
+
+			execute console command "execute %attacker% ~ ~ ~ /particle mobappearance ~ ~0.3 ~ 1 1 1 0 1 1"		
+
+			execute console command "execute %attacker% ~ ~ ~ /particle smoke ~ ~0.3 ~ 1 1 1 0 100 1"	
+
+
+
+
+
+#-=-=-=-=-=-=-=-=-=-=
+
+# BLACKOUT
+
+#-=-=-=-=-=-=-=-=-=-=
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of attacker's held item contains "&4Blackout I":
+
+		if {cooldown::%attacker%::blacko} is true:
+
+			stop
+
+		else:
+
+			chance of 2%:
+
+				send "&c&l*** &4&lBLACKOUT&c&l: &7[10s] &c&l***" to attacker
+
+				set {cooldown::%attacker%::blacko} to true
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to true
+
+				wait 10 seconds
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to false
+
+				wait 40 seconds
+
+				set {cooldown::%attacker%::blacko} to false
+
+	attacker is a entity
+
+	if lore of victim's boots contains "&4Blackout II":
+
+		if {cooldown::%attacker%::blacko} is true:
+
+			stop
+
+		else:
+
+			chance of 3%:
+
+				send "&c&l*** &4&lBLACKOUT&c&l: &7[12s] &c&l***" to attacker
+
+				set {cooldown::%attacker%::blacko} to true
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to true
+
+				wait 12 seconds
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to false
+
+				wait 38 seconds
+
+				set {cooldown::%attacker%::blacko} to false
+
+	attacker is a entity
+
+	if lore of victim's boots contains "&4Blackout III":
+
+		if {cooldown::%attacker%::blacko} is true:
+
+			stop
+
+		else:
+
+			chance of 4%:
+
+				send "&c&l*** &4&lBLACKOUT&c&l: &7[14s] &c&l***" to attacker
+
+				set {cooldown::%attacker%::blacko} to true
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to true
+
+				wait 14 seconds
+
+				set {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} to false
+
+				wait 36 seconds
+
+				set {cooldown::%attacker%::blacko} to false
+
+				
+
+				
+
+#-=-=-=-=-=-=-=-=-=-=
+
+# FEIGN DEATH
+
+#-=-=-=-=-=-=-=-=-=-=
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of victim's boots contains "&4Feign Death I":
+
+		if {cooldown::%attacker%::fdeath} is true:
+
+			stop
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 11%:
+
+				set {cooldown::%attacker%::fdeath} to true
+
+				set {cooldown::%attacker%::fdeath} to true
+
+				hide victim from all players
+
+				send "&4&l* Feign Death &7[VANISHED 3s] &4&l*" to victim
+
+				send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+				wait 3 seconds
+
+				reveal victim from all players
+
+				wait 62 seconds
+
+				set {cooldown::%attacker%::fdeath} to false
+
+		if lore of victim's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 11%:
+
+			set {cooldown::%attacker%::fdeath} to true
+
+			hide victim from all players
+
+			send "&4&l* Feign Death &7[VANISHED 3s] &4&l*" to victim
+
+			send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+			wait 3 seconds
+
+			reveal victim from all players
+
+			wait 62 seconds
+
+			set {cooldown::%attacker%::fdeath} to false
+
+	attacker is a player
+
+	if lore of victim's boots contains "&4Feign Death II":
+
+		if {cooldown::%attacker%::fdeath1} is true:
+
+			stop
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 11%:
+
+				set {cooldown::%attacker%::fdeath1} to true
+
+				hide victim from all players
+
+				send "&4&l* Feign Death &7[VANISHED 3s] &4&l*" to victim
+
+				send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+				wait 4 seconds
+
+				reveal victim from all players
+
+				wait 51 seconds
+
+				set {cooldown::%attacker%::fdeath1} to false
+
+		if lore of victim's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		chance of 11%:
+
+			set {cooldown::%attacker%::fdeath1} to true
+
+			hide victim from all players
+
+			send "&4&l* Feign Death &7[VANISHED 3s] &4&l*" to victim
+
+			send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+			wait 4 seconds
+
+			reveal victim from all players
+
+			wait 51 seconds
+
+			set {cooldown::%attacker%::fdeath1} to false
+
+	attacker is a player
+
+	if lore of victim's boots contains "&4Feign Death III":
+
+		if {cooldown::%attacker%::fdeath2} is true:
+
+			stop
+
+		if {plzkillme::%attacker%::AHHHHHHHHHHHHHHHHHHHHHHHH} is true:
+
+			chance of 11%:
+
+				set {cooldown::%attacker%::fdeath2} to true
+
+				hide victim from all players
+
+				send "&4&l* Feign Death &7[VANISHED 4s] &4&l*" to victim
+
+				send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+				wait 4 seconds
+
+				reveal victim from all players
+
+				wait 41 seconds
+
+				set {cooldown::%attacker%::fdeath2} to false
+
+		if lore of victim's chestplate contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's leggings contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's boots contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		else if lore of victim's helmet contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+			stop
+
+		if victim's health is less than or equal to 5:
+
+			chance of 11%:
+
+				set {cooldown::%attacker%::fdeath2} to true
+
+				hide victim from all players
+
+				send "&4&l* Feign Death &7[VANISHED 4s] &4&l***" to victim
+
+				send "&c&l** &cYou victim has perished for a few seconds &c&l**" to attacker
+
+				wait 4 seconds
+
+				reveal victim from all players
+
+				wait 41 seconds
+
+				set {cooldown::%attacker%::fdeath2} to false
+
+
+
+
+
+#-=-=-=-=-=-=-=-=-=-=
+
+# MORTAL COIL
+
+#-=-=-=-=-=-=-=-=-=-=
+
+
+
+on damage of a player:
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Mortal Coil I":
+
+		if {cooldown::%victim%::m1} is true:
+
+			stop
+
+		if lore of victim's chestplate contains "&6Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 1 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+		if lore of victim's chestplate contains "&6Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 2 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+		if lore of victim's chestplate contains "&6Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 3 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+		if lore of victim's chestplate contains "&dGodly Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 4 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+		if lore of victim's chestplate contains "&dGodly Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 5 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+		if lore of victim's chestplate contains "&dGodly Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m1} to true
+
+				send "&c&l* MORTAL COIL I (&7%victim% [1s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 1 seconds
+
+				apply health boost 6 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m1} to false
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Mortal Coil II":
+
+		if {cooldown::%victim%::m2} is true:
+
+			stop
+
+		if lore of attacker's chestplate contains "&6Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 1 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+		if lore of attacker's chestplate contains "&6Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 2 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+		if lore of attacker's chestplate contains "&6Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 3 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 4 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 5 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m2} to true
+
+				send "&c&l* MORTAL COIL II (&7%victim% [2s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 2 seconds
+
+				apply health boost 6 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m2} to false
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Mortal Coil III":
+
+		if {cooldown::%victim%::m3} is true:
+
+			stop
+
+		if lore of attacker's chestplate contains "&6Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 1 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+		if lore of attacker's chestplate contains "&6Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 2 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+		if lore of attacker's chestplate contains "&6Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 3 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 4 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 5 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m3} to true
+
+				send "&c&l* MORTAL COIL III (&7%victim% [3s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 3 seconds
+
+				apply health boost 6 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m3} to false
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Mortal Coil IV":
+
+		if {cooldown::%victim%::m4} is true:
+
+			stop
+
+		if lore of attacker's chestplate contains "&6Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 1 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+		if lore of attacker's chestplate contains "&6Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 2 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+		if lore of attacker's chestplate contains "&6Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 3 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker	
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 4 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 5 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+		if lore of attacker's chestplate contains "&dGodly Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m4} to true
+
+				send "&c&l* MORTAL COIL IV (&7%victim% [4s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 4 seconds
+
+				apply health boost 6 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m4} to false
+
+	attacker is a player
+
+	if lore of victim's chestplate contains "&4Mortal Coil V":
+
+		if {cooldown::%victim%::m5} is true:
+
+			stop
+
+		if lore of attacker's chestplate contains "Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL V (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 1 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+		if lore of attacker's chestplate contains "Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL V (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 2 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+		if lore of attacker's chestplate contains "Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL V (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 3 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+		if lore of attacker's chestplate contains "Godly Overload I":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL V (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 4 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+		if lore of attacker's chestplate contains "Godly Overload II":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL 5 (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 5 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+		if lore of attacker's chestplate contains "Godly Overload III":
+
+			chance of 1%:
+
+				set {cooldown::%victim%::m5} to true
+
+				send "&c&l* MORTAL COIL V (&7%victim% [5s]&c&l) *" to attacker				
+
+				remove health boost from attacker		
+
+				execute console command "execute %victim% ~ ~ ~ /particle enchantmenttable ~ ~0.8 ~ 0.1 0.9 0.1 0 100 10"				
+
+				wait 5 seconds
+
+				apply health boost 6 to attacker for 1 day
+
+				wait 180 seconds
+
+				set {cooldown::%victim%::m5} to false
+
+
+
+command /antimkit [<text>] [<player>]:
+
+	permission: antimk.admin
+
+	permission message: &c&l(!) &cInsufficient Permissions!
+
+	trigger:
+
+		if arg 1 is not set:
+
+			send "&c&lInsufficient Usage of /anitmkit!"
+
+			send ""
+
+			send "&7Please use /antimkit 1 (Player)"
+
+			stop
+
+		if arg 2 is not set:
+
+			send "&c&lInsufficient Usage of /anitmkit!"
+
+			send ""
+
+			send "&7Please use /antimkit 1 (Player)"
+
+			stop
+
+		if arg 2 is set:
+
+			if arg 1 is "1":
+
+				give arg-2 1 of nether star named "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)" with lore "&a100%% Success Rate||&7Apply to any piece of armor||&7to negate the following||&7custom Mastery Enchantments:|| &6&l* &4Feign Death|| &6&l* &4Horrify"
+
+				stop
+
+			send "&c&lInsufficient Usage of /anitmkit!"
+
+			send ""
+
+			send "&7Please use /antimkit 1 (Player)"
+
+			
+
+on mor.inventory click:
+
+	if name of cursor item of player contains "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+		if event-item is any boots, any leggings, any chestplate or any helmet:
+
+			if lore of event-item does not contain "&6&lAnti M-Kit Crystal &6&l(&f&lEthereal&6&l)":
+
+				cancel event
+
+				set lore of event-item to "%lore of event-item%||%name of cursor item of player%"
+
+				set cursor item of player to air
+
+			else:
+
+				cancel event
+
+				message "&cThis item already contains the &6&lAnti M-Kit Crystal&8: &6&l(&f&lEthereal&6&l)"
+
+				stop 
+
+
+on damage:
+
+	"%damage cause%" is "projectile":
+
+		damage victim by 0.75
